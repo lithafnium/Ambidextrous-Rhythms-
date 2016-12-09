@@ -238,15 +238,15 @@ void setup() {
 
   font = createFont("Monoton.ttf", 48);
   textFont(font);
-  up = loadImage("up.png"); 
-  down = loadImage("down.png"); 
-  left= loadImage("left.png");
-  right = loadImage("right.png"); 
+  up = loadImage("images/up.png"); 
+  down = loadImage("images/down.png"); 
+  left= loadImage("images/left.png");
+  right = loadImage("images/right.png"); 
 
-  W = loadImage("W.png"); 
-  A = loadImage("A.png");
-  S = loadImage("S.png"); 
-  D = loadImage("D.png"); 
+  W = loadImage("images/W.png"); 
+  A = loadImage("images/A.png");
+  S = loadImage("images/S.png"); 
+  D = loadImage("images/D.png"); 
 
 
   size(900, 600);
